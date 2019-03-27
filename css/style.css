@@ -24,6 +24,13 @@ body
     color: white;
 }
 
+.menu li a:hover
+{
+    color: #484343;
+}
+
+
+
 .about_product,
 .specifications,
 .full_description
@@ -40,6 +47,14 @@ body
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+}
+
+.about_text:first-letter,
+.full_description_text:first-letter
+{
+    color: red;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
 }
 
 .full_description_text
@@ -70,7 +85,11 @@ body
     color: orange;
     font-weight: bold;
     font-style: 1.5em;
+}
 
+.send_message_form > input
+{
+    text-transform: capitalize;
 }
 
 input[type="submit"],
@@ -86,3 +105,28 @@ input[type="reset"]
     color: #ffd500;
     text-align: center;
 }
+
+#email:focus
+{
+    color: black;
+    background: yellow;
+}
+
+.img_border
+{
+    outline: 5px solid black;
+}
+
+.img_border:hover
+{
+    outline: none;
+}
+
+table tr:first-child
+{
+    height: 40px;
+    background: gray;
+}
+
+
+
