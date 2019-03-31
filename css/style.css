@@ -1,45 +1,36 @@
-body
-{
+body {
     background-color: #f8f8f8;
 }
 
-.menu
-{
+.menu {
     font-size: 18px;
     font-weight: bold;
 }
 
-.menu li
-{
+.menu li {
     display: inline-block;
     padding: 6px;
     list-style-type: none;
 }
 
-.menu li a
-{
+.menu li a {
     color: white;
 }
 
-.menu li a:hover
-{
+.menu li a:hover {
     color: #484343;
 }
 
-
-
 .about_product,
 .specifications,
-.full_description
-{
+.full_description {
     color: black;
     font-size: 18px;
     font-weight: 400;
-    background-color: #eaeaea ;
+    background-color: #eaeaea;
 }
 
-.about_text
-{
+.about_text {
     color: #707070;
     font-size: 14px;
     font-style: italic;
@@ -47,15 +38,13 @@ body
 }
 
 .about_text:first-letter,
-.full_description_text:first-letter
-{
+.full_description_text:first-letter {
     color: red;
     font-size: 20px;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", serif;
 }
 
-.full_description_text
-{
+.full_description_text {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -63,109 +52,117 @@ body
     text-align: left;
 }
 
-.specifications_text
-{
-    font-style: 1.5em;
-    font-family: "Comic Sans MS";
+.specifications_text {
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", serif;
+    clear: both;
 }
 
-.specifications_text li
-{
+.specifications_text li {
     list-style-image: url("../images/excavator.png");
 }
 
-.send_message_form > input
-{
+.send_message_form > input {
     width: 250px;
     height: 20px;
     margin: 5px 0;
     color: orange;
     font-weight: bold;
-    font-style: 1.5em;
+    font-size: 1em;
 }
 
-.send_message_form > input
-{
+.send_message_form > input {
     text-transform: capitalize;
 }
 
 input[type="submit"],
-input[type="reset"]
-{
-    color:black;
-    font-size: 30px;
+input[type="reset"] {
+    color: black;
+    font-size: 17px;
+    height: 30px;
 }
 
-.heading
-{
+.heading {
     background-color: black;
     color: #ffd500;
     text-align: center;
 }
 
-#email:focus
-{
+#email:focus {
     color: black;
     background: yellow;
 }
 
-.img_border
-{
+.img_border {
     outline: 5px solid black;
 }
 
-.img_border:hover
-{
+.img_border:hover {
     outline: none;
 }
 
-table tr:first-child
-{
+table tr:first-child {
     height: 40px;
     background: gray;
 }
 
-.container
-{
+.container {
     width: 300px;
     background: red;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header
-{
+.header {
     height: 50px;
-    background: black;
+    background-image: url("../images/header_bg.jpg");
 }
 
-.logo
-{
+.logo {
     margin: 10px 0 0 10px;
     width: 50px;
+    float: left;
 }
 
-.footer
-{
+.footer {
     height: 70px;
     background: black;
     color: white;
     text-align: right;
+    clear: both;
 }
 
-.footer p
-{
-    margin-left: :50px;
+.footer p {
+    margin-left: 50px;
     padding: 20px 10px 0 0;
 }
 
-.product_image
+.product_image {
+    float: left;
+    margin-right: 30px;
+}
+
+.btn_buy {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn_buy:hover {
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_buy:active {
+    background: red;
+    color: black;
+    font-weight: bold;
+}
+
+.catalog_item
 {
     float: left;
+    width: 30%;
+    text-align: center;
 }
-
-.product_description
-{
-  padding: 30px;
-}
-
