@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <title>Каталог</title>
 </head>
+
 <body>
-<div class="header">
-    <img src="images/logo.png" alt="Стартех" class="logo">
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-</div>
-<h1 class="heading">Каталог</h1>
-<hr>
-<div class="catalog_item">
-    <a href="catalog/crusher_mb_c50.html"><img src="images/mb_c50s2.jpg" width="20%" class="img_border"><br>Дробильный
-        ковш MB-C50 S2</a>
-</div>
-<div class="catalog_item">
-    <a href="catalog/crusher_mb_c50.html"><img src="images/mb_c50s2.jpg" width="20%" class="img_border"><br>Дробильный
-        ковш MB-C50 S2</a>
-</div>
-<div class="catalog_item">
-    <a href="catalog/crusher_mb_c50.html"><img src="images/mb_c50s2.jpg" width="20%" class="img_border"><br>Дробильный
-        ковш MB-C50 S2</a>
-</div>
-<div class="footer">
-    <p>Все права защищены &copy;</p>
-</div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Стартех" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link">Главная</a>
+                    <a href="catalog.html" class="nav-item nav-link active">Каталог</a>
+                    <a href="contacts.html" class="nav-item nav-link">Контакты</a>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="heading">Каталог</h1>
+        <hr>
+        <div class="row">
+
+            <div class="col">
+                <div class="catalog_item">
+                    <a href="catalog/crusher_mb_c50.html"><img src="images/mb_c50s2.jpg" class="img-thumbnail"><br>Дробильный
+                        ковш MB-C50 S2</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="catalog_item">
+                    <a href="catalog/crusher_mb_c50.html"><img src="images/mb_c50s2.jpg"  class="img-thumbnail"><br>Дробильный
+                        ковш MB-C50 S2</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="catalog_item">
+                    <a href="catalog/crusher_mb_c50.html"><img src="images/mb_c50s2.jpg" class="img-thumbnail"><br>Дробильный
+                        ковш MB-C50 S2</a>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+    <div class="footer">
+        <p>Все права защищены &copy;</p>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
 </body>
+
 </html>
